@@ -3,8 +3,11 @@ let playlist = new Playlist();
 let hereComesTheSun = new Song('Here comes the Sun', 'The Beatles', '2:54');
 let walkingOnSunshine = new Song('Walking on sunshine', 'Katrina and the Waves', '3:12');
 
+let manOfSteel = new Movie('Man of Steel', '2013', '2:13:00');
+
 playlist.add(hereComesTheSun);
 playlist.add(walkingOnSunshine);
+playlist.add(manOfSteel);
 
 let playlistElement = document.getElementById('playlist');
 

@@ -14,7 +14,7 @@ Playlist.prototype.play = function() {
 };
 
 Playlist.prototype.stop = function() {
-    let currentSong = this.songs[this.nowPlayingIndex]
+    let currentSong = this.songs[this.nowPlayingIndex];
     currentSong.stop();
 };
 Playlist.prototype.next = function() {
